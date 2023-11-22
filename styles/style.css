@@ -19,8 +19,6 @@
   min-block-size: 100dvb;
   padding-block-start: 102px;
 
-  
-
   font-family: var(--main-font, sans-serif);
   font-variation-settings: "wght" var(--text-font-weight, 400);
   background-color: var(--background-color, #000);
@@ -35,7 +33,7 @@
   gap: 54px;
   justify-items: center;
   align-items: center;
-  
+
   padding-bottom: 105px;
 }
 
@@ -54,11 +52,11 @@
   justify-content: center;
 
   text-transform: uppercase;
-  font-family: var(--accent-font,"PressStart2P");
+  font-family: var(--accent-font, "PressStart2P");
   font-style: normal;
   line-height: normal;
   border: 2px solid var(--text-color, #000);
-  background: var(--background-color, #FFF);
+  background: var(--background-color, #fff);
   max-width: 696px;
   margin-inline: auto;
 }
@@ -91,7 +89,7 @@
 
   border: none;
   background-color: transparent;
-  
+
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -157,7 +155,7 @@
 
 .card__feedback {
   display: flex;
-  
+
   justify-content: end;
   align-items: stretch;
   padding: 0px 25px 25px 25px;
@@ -183,7 +181,7 @@
   font-family: var(--accent-font, "PressStart2P");
   font-size: 14px;
   align-items: center;
-  line-height: 90%  ; /* 12.6px */
+  line-height: 90%; /* 12.6px */
   font-variation-settings: "wght" var(--text-font-weight, 400);
   cursor: pointer;
   z-index: 1;
@@ -192,7 +190,7 @@
 
 .button__text {
   padding: 9px 17px;
-  color: var(--button-text, #fff);  
+  color: var(--button-text, #fff);
   mix-blend-mode: difference;
 }
 
@@ -206,9 +204,6 @@
   inset-inline-end: 11px;
   inset-block-start: 23px;
 
-  
-
-  
   font-family: var(--accent-font, "PressStart2P");
   font-size: 14px;
   font-style: normal;
@@ -223,7 +218,6 @@
 
 /* main cards on the page(END) */
 
-
 /* все ховеры и тд START(top to bottom) */
 
 .theme-menu__button:hover {
@@ -232,7 +226,7 @@
 
 .theme-menu__button:focus {
   outline: 0;
-  opacity: 0.6  ;
+  opacity: 0.6;
 }
 
 .theme-menu__button:disabled {
@@ -253,7 +247,7 @@
 
 .theme-menu__button:focus-visible::after {
   transform: scaleX(1);
-} 
+}
 
 .feedback__button:focus {
   outline: 0;
@@ -299,7 +293,7 @@
 }
 
 .button__icon {
-  color: var(--button-text, #fff);  
+  color: var(--button-text, #fff);
   mix-blend-mode: difference;
   width: 21px;
   height: 21px;
@@ -312,7 +306,6 @@
 .dialog {
   max-width: 355px;
   padding: 31px 31.5px;
-  
 
   color: var(--text-color, #000);
   font-family: var(--accent-font, "PressStart2P");
@@ -374,7 +367,7 @@
   filter: blur(20px);
 }
 
-@supports ( (-webkit-text-stroke: 1px var(--background-color, #fff)) ) {
+@supports ((-webkit-text-stroke: 1px var(--background-color, #fff))) {
   .card__img-label {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--background-color, #fff);
@@ -382,7 +375,6 @@
 }
 
 @media (width <= 375px) {
-
   .button__save {
     flex-direction: column;
   }
@@ -396,6 +388,4 @@
     padding: 32px 42px;
     max-width: 341px;
   }
-} 
-
-
+}
