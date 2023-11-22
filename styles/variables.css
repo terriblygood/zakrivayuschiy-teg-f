@@ -1,1 +1,26 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+/* WHITE */
+:root {
+    --white: #fff;
+    --black: #000;
+    --green: #00CC14;
+
+    --background-color: var(--white, #fff);
+    --text-color: var(--black, #000);
+    --favicon-color: #000;
+    --background-image: repeating-linear-gradient(to left, #d3d3d3 0px 2px, #d3d3d300 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0px 2px, #d3d3d300 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+    --button-text: var(--background-color, #fff);
+
+
+    --main-font: "Inter", sans-serif;
+    --accent-font: "PressStart2P";
+    --header-font-weight: 700;
+    --text-font-weight: 400;
+
+    --contour-color: var(--text-color, #000000);
+    --heart-body-color: none;
+    --sparks-color: #ff0000;
+    --main-animation-color: #ff0000;
+}
