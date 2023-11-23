@@ -18,7 +18,7 @@
   --button-text: var(--background-color, #fff);
 
   --main-font: "Inter", sans-serif;
-  --accent-font: "PressStart2P";
+  --accent-font: "PressStart2P", fantasy;
   --header-font-weight: 700;
   --text-font-weight: 400;
 

@@ -15,17 +15,17 @@
 
 .like-icon .core {
   fill: var(--background-color, #fff);
-  transition: 0.3s linear 0.03s;
+  transition: fill 0.3s linear 0.03s;
 }
 
 .like-icon .main-body {
   fill: var(--background-color, #fff);
-  transition: 0.3s linear;
+  transition: fill 0.3s linear;
 }
 
 .like-icon .contour {
   fill: var(--contour-color, #000);
-  transition: 0.1s linear;
+  transition: fill 0.1s linear;
 }
 
 .like-icon .heart {
@@ -38,37 +38,37 @@
 
 .like-icon:hover .main-body {
   fill: var(--contour-color, #000);
-  transition: 0.3s linear 0.05s;
+  transition: fill 0.3s linear 0.05s;
 }
 
 .like-icon:hover .core {
   fill: var(--contour-color, #000);
-  transition: 0.3s linear;
+  transition: fill 0.3s linear;
 }
 
 .like-icon:active .main-body {
   fill: var(--main-animation-color, #ff0000);
-  transition: 0.3s linear 0.05s;
+  transition: fill 0.3s linear 0.05s;
 }
 
 .like-icon:active .core {
   fill: var(--main-animation-color, #ff0000);
-  transition: 0.3s linear;
+  transition: fill 0.3s linear;
 }
 
 .like-icon.is-liked .contour {
   fill: var(--sparks-color, #ff0000);
-  transition: 0.3s linear 0.06s;
+  transition: fill 0.3s linear 0.06s;
 }
 
 .like-icon.is-liked .core {
   fill: var(--sparks-color, #ff0000);
-  transition: 0.3s linear;
+  transition: fill 0.3s linear;
 }
 
 .like-icon.is-liked .main-body {
   fill: var(--sparks-color, #ff0000);
-  transition: 0.3s linear 0.05s;
+  transition: fill 0.3s linear 0.05s;
 }
 
 .like-icon.is-liked .sparks {
