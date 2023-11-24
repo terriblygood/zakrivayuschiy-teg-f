@@ -175,7 +175,6 @@
 
   border: 2px solid var(--text-color, #000);
   background-color: var(--background-color, #fff);
-  padding: 9px 17px;
   font-family: var(--accent-font, "PressStart2P", fantasy);
   font-size: 14px;
   align-items: center;
@@ -184,10 +183,14 @@
   cursor: pointer;
   z-index: 1;
   transition: box-shadow 0.3s ease;
+  padding: 9px 17px;
+}
+
+.feedback__button:not(.button__save, .dialog__button) {
+  width: 130px;
 }
 
 .button__text {
-  padding: 9px 17px;
   color: var(--button-text, #fff);
   mix-blend-mode: difference;
 }
@@ -290,11 +293,6 @@
   gap: 8px;
   padding: 15px 20px;
   align-content: center;
-}
-
-.save__text {
-  color: var(--button-text, #fff);
-  mix-blend-mode: difference;
 }
 
 .button__icon {
